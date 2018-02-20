@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/01/2018, 11:31:24 AM
+    Author     : TI
+*/
+
+body{
+    background-image: url('https://wallpapertag.com/wallpaper/full/1/e/b/115323-most-popular-background-white-2400x1800.jpg');
+}
+.centrar {
+
+overflow: hidden;
+position: absolute;
+height: 150px;
+width: 500px;
+left: 50%;
+top: 50%;
+margin-top: -75px;
+margin-left: -250px;
+
+}
+#footer, #push {     
+    height: 150px; /* la altura del push es la misma que la altura     
+    del footer */ 
+}
