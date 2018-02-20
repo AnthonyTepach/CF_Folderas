@@ -1,0 +1,31 @@
+  <label>Tamaño</label>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <input type="text"  class="form-control form-text" id="txtancho" placeholder="Ancho" onKeyPress="return soloNumeros(event)">
+                                </div>
+                                <div class="col-sm">
+                                    <input type="text"  class="form-control form-text" id="txtlargo" placeholder="Largo" onKeyPress="return soloNumeros(event)">
+                                </div>
+                            </div>
+                            <label>Plecas</label>
+                            <select class="custom-select mr-sm-2" id="txtplecas" name='txtplecas'>
+                                <option value="no">No</option>
+                                <option value="4 Dientes">4 Dientes</option>
+                                <option value="6 Dientes">6 Dientes</option>
+                                <option value="8 DIentes">8 Dientes</option>
+                                <option value="10 Dientes">10 Dientes</option>
+                                <option value="Corte fino">Corte fino</option>
+                                <option value="Enlace abierto">Enlace abierto</option>
+                                <option value="Doblez">Doblez</option>
+                            </select>
+                            <label>Carretillas</label>
+                            <select class="custom-select mr-sm-2" id="txtcarretilla" name='txtcarretilla'>
+                                <option value="no">No</option>
+                                <option value="4 Dientes">4 Dientes</option>
+                                <option value="6 Dientes">6 Dientes</option>
+                                <option value="8 DIentes">8 Dientes</option>
+                                <option value="10 Dientes">10 Dientes</option>
+                                <option value="Corte fino">Corte fino</option>
+                                <option value="Enlace abierto">Enlace abierto</option>
+
+                            </select>

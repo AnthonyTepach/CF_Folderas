@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Foldera" pageWidth="630" pageHeight="842" columnWidth="590" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c1f48209-7874-4e0b-a4fe-bde6e733b6ee">
+	<property name="ireport.zoom" value="0.75"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="699"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#73E6E6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#CFE6E6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#EFF7FF"/>
+		</conditionalStyle>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 10">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 10_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 10_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 10_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 11">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 11_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 11_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 11_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 12">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 12_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 12_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 12_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 13">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 13_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 13_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 13_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 14">
+		<box>
+			<pen lineWidth="1.0" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 14_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 14_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<style name="table 14_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#009999"/>
+		</box>
+	</style>
+	<subDataset name="APLIES" uuid="1b2f32e2-4900-419d-b6ed-c495a777f893">
+		<parameter name="fa" class="java.lang.Integer">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<queryString>
+			<![CDATA[SELECT
+
+	F1.nombre_forma,
+	AE.descripcion,
+	AE.ancho,
+	AE.largo,
+	AE.cantidad,
+	AE.obserbaciones,
+	OP1.status 
+FROM
+	tb_formas F1
+	INNER JOIN
+	tb_apliformas AE ON F1.id_forma = AE.id_forma
+	INNER JOIN 
+	tb_op OP1 ON  OP1.id_forma=F1.id_forma
+
+WHERE OP1.status ="Autorizada" and  F1.id_forma=$P{fa};]]>
+		</queryString>
+		<field name="nombre_forma" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="descripcion" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ancho" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="largo" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="cantidad" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="obserbaciones" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="status" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Tantos" uuid="4ee6ec78-d443-45e2-81a4-836ee92a93ab">
+		<parameter name="de_la_forma" class="java.lang.Integer">
+			<defaultValueExpression><![CDATA[43]]></defaultValueExpression>
+		</parameter>
+		<queryString>
+			<![CDATA[SELECT
+
+	F1.nombre_forma,
+	FT.plecas,
+	FT.carretillas,
+	FT.tiros,
+	FT.color,
+	FT.calidad,
+	Ft.peso,
+	FT.carbon,
+	FT.ancho,
+	FT.largo,
+	FT.perfh,
+	FT.perfv,
+	FT.cambios,
+	FT.tirasM,
+	FT.nombre,
+	FT.ubicacion,
+	OP1.status 
+FROM
+	tb_formas F1
+	INNER JOIN
+	tb_tantos FT ON F1.id_forma = FT.id_forma
+	INNER JOIN 
+	tb_op OP1 ON  OP1.id_forma=F1.id_forma
+
+WHERE OP1.status ="Autorizada" and F1.id_forma = $P{de_la_forma}]]>
+		</queryString>
+		<field name="nombre_forma" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="plecas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="carretillas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tiros" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="color" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="calidad" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="peso" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="carbon" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ancho" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="largo" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="perfh" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="perfv" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="cambios" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tirasM" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nombre" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ubicacion" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="status" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<group name="plecas">
+			<groupExpression><![CDATA[$F{plecas}]]></groupExpression>
+		</group>
+		<group name="tiros">
+			<groupExpression><![CDATA[$F{tiros}]]></groupExpression>
+		</group>
+		<group name="carretillas">
+			<groupExpression><![CDATA[$F{carretillas}]]></groupExpression>
+		</group>
+		<group name="calidad">
+			<groupExpression><![CDATA[$F{calidad}]]></groupExpression>
+		</group>
+	</subDataset>
+	<subDataset name="dataset1" uuid="6d60a64f-b9ef-4c97-a917-8840461bda4d"/>
+	<parameter name="formaN" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT 
+	        	F1.nombre_forma,
+	        	F1.Tiempo_entrega,
+	        	F1.agente,
+		F1.elaboro,
+	        	F1.cantidad,
+	        	F1.Unidad,
+		F1.orden_anterior,
+		F1.ancho,
+		F1.largo,
+		F1.numcotizacion,
+	        	SF1.nombre_subfamilia,
+		SF1.clave,
+	        	FF1.nombre_familia ,  
+	        	C1.Nombre_cliente,
+	        	C1.rfc_cliente,
+	        	OP1.no_prod,
+	        	OP1.status,
+		OP1.tipo_op,
+	        	OP1.id_op,
+		OP1.f_registro,
+		OP1.f_autorizacion,
+		OP1.f_produccion,
+		OP1.f_cliente
+	        	
+	        FROM
+	        	tb_formas F1
+	        	INNER JOIN
+	        	 	tb_subfamilia_formato SF1 ON F1.id_sformato = SF1.id_sformato
+	        	INNER JOIN
+	      			tb_familia_formato FF1 ON SF1.id_fformato = FF1.id_fformato
+	      		INNER JOIN
+	      			tb_clinte C1 ON F1.id_cleinte= C1.id_cleinte
+	      		INNER JOIN 
+	      			tb_op OP1 ON  OP1.id_forma=F1.id_forma
+	      	WHERE OP1.status ="Autorizada" AND F1.id_forma=$P{formaN};]]>
+	</queryString>
+	<field name="nombre_forma" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Tiempo_entrega" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="elaboro" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cantidad" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Unidad" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="orden_anterior" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ancho" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="largo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="numcotizacion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombre_subfamilia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="clave" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombre_familia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nombre_cliente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="rfc_cliente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="no_prod" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_op" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_op" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="f_registro" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="f_autorizacion" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="f_produccion" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="f_cliente" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Prevent">
+			<image>
+				<reportElement x="317" y="535" width="273" height="267" uuid="5ed7e845-52ea-406d-b82e-97053d1ddf5c"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\LOGO esquinado.jpg"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="294" y="213" width="270" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="676161ec-9140-4844-a742-875c7c507ada"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="294" y="213" width="270" height="20" forecolor="#FFFFFF" uuid="497e94cf-8a43-478c-abf1-cd756aa4c91e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="16"/>
+				</textElement>
+				<text><![CDATA[FECHA DE ENTREGA]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="294" y="233" width="270" height="20" forecolor="#3997F9" backcolor="#FFFFFF" uuid="0708fa9f-4789-465f-baac-9ef02b0d588e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="24" y="475" width="234" height="46" forecolor="#3997F9" uuid="c8c9ed36-f729-4964-86f6-4165f2809eb5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="385" y="555" width="180" height="36" forecolor="#3997F9" uuid="8de84cf0-4700-48bb-a8ad-145eae75aa9a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="258" y="445" width="306" height="76" forecolor="#3997F9" uuid="01b406f3-5344-476c-9871-e20d7d432403"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="25" y="535" width="180" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="90690312-5a7f-47dc-acd6-aa7366d7b991"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="522" width="181" height="33" forecolor="#FFFFFF" uuid="daf90105-24b3-4035-88c5-264af4b262c4"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOMBRE DEL AGENTE]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="25" y="476" width="234" height="46" uuid="440ce0c6-9378-4d67-8491-e1dc9ed9415c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre_familia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="258" y="446" width="305" height="76" uuid="4964c7ec-f579-4be5-9012-2b9fe26bc75f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre_subfamilia}+"\n"+$F{clave}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="205" y="535" width="180" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="4e4e7261-ca96-48f8-921a-7275f3f4014a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="25" y="555" width="180" height="36" forecolor="#3997F9" uuid="80753d16-d667-4b35-b9fe-4d247a0d31e6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="385" y="535" width="180" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="5d994225-88ee-46d4-8d13-e40bc183eeb1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="205" y="555" width="180" height="36" forecolor="#3997F9" uuid="2bfb26fa-43b3-4654-9262-50bbf47456f7"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="385" y="522" width="180" height="33" forecolor="#FFFFFF" uuid="140063b2-fd95-4a59-8391-4ba75ca6ad99"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[REGISTRÓ O.P.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="24" y="555" width="180" height="36" uuid="9450b94b-51ca-44a1-8ddd-8ad67b0ec9bc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agente}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="62" y="777" width="84" height="14" uuid="8e63f625-cb32-440c-96c9-59aab5515000"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\iflexo.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="385" y="555" width="180" height="36" uuid="d232b94c-dc03-4ffd-a097-3463a4c7db42"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre_familia}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="25" y="386" width="539" height="46" forecolor="#3997F9" uuid="210b509c-8f4c-48be-8cec-514c5bd44375"/>
+			</rectangle>
+			<image>
+				<reportElement x="185" y="777" width="84" height="14" uuid="3ec02c39-cc81-4dba-849d-fd9b29adbad2"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\Letterme-color.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="26" y="387" width="540" height="44" uuid="5ed3fbc1-e28f-4198-b286-be460677634f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre_forma}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="118" y="777" width="84" height="14" uuid="ce88baaf-c44b-4689-9d24-90262b7ecccd"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\imprelotto-color.jpg"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="24" y="444" width="234" height="30" forecolor="#60CCE3" backcolor="#3997F9" uuid="db3885c5-8dc7-4f14-a6f0-dab1f780a7a6"/>
+			</rectangle>
+			<image>
+				<reportElement x="245" y="777" width="84" height="14" uuid="860b37db-25a0-42b7-b17d-f3d2c4bd5b12"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\iHologran.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="16" y="777" width="84" height="14" uuid="ef7126c5-fa4d-45bf-bf3c-a83bbf14a291"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\Be-Clear-id.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="485" y="777" width="84" height="25" uuid="86ce8d38-d733-453c-a214-d140bae4a671"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\dataincolor.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="418" y="124" width="169" height="18" uuid="29369be6-d9b5-4e23-91b7-fc3346e81fa0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="12" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{orden_anterior}.isEmpty()?"":"Anterior: "+$F{orden_anterior}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="305" y="777" width="84" height="25" uuid="36e9892b-6edf-4d02-8c20-46844114e586"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\Docu-color.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="522" y="0" width="68" height="69" uuid="55a48cac-4639-48b9-9750-54e0f4f24f15"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\"+$F{Tiempo_entrega}+".jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="205" y="522" width="180" height="33" forecolor="#FFFFFF" uuid="3b238bcd-758a-4ea5-bba7-55afd334a00b"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ELABORÓ O.P.]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="342" height="94" uuid="d2fe83ba-7d16-4471-b1f5-0252e82fe9fc"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\logo.jpg"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="385" y="25" width="100" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="24c720c8-467a-4a96-9d24-3c69a051a32d"/>
+			</rectangle>
+			<textField>
+				<reportElement x="205" y="555" width="180" height="36" uuid="f7dbc631-d936-498b-99b5-36c36d5f3cd1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{elaboro}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="15" y="93" width="539" height="37" uuid="57fae061-ef90-4e46-86b3-9653d4f4c600"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="26" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[ORDEN DE PRODUCCIÓN:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="25" y="297" width="539" height="46" forecolor="#3997F9" uuid="a3562385-b972-4a6b-8891-75bd168128c0"/>
+			</rectangle>
+			<textField>
+				<reportElement x="26" y="297" width="540" height="46" uuid="2b46c990-ca08-4bc9-8c31-615780f480b8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nombre_cliente}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="349" y="94" width="241" height="36" uuid="ece7083f-7072-45bf-af9d-a9800b890143"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="27" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["No."+$F{no_prod}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="25" y="356" width="539" height="30" forecolor="#3997F9" backcolor="#3997F9" uuid="14563197-0098-4454-b115-f3951cd8f38b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="25" y="267" width="540" height="30" forecolor="#3997F9" backcolor="#3997F9" uuid="1f402b7e-2baa-410e-84a7-6950f0e454e2"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="432" width="234" height="43" forecolor="#FFFFFF" uuid="b5fc8727-801b-40ca-b994-481eb2e60f09"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[PRODUCTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="343" width="540" height="43" forecolor="#FFFFFF" uuid="3d75dc2f-3509-485f-bdd5-6c02c6fd70bd"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[Nombre de la forma]]></text>
+			</staticText>
+			<image>
+				<reportElement mode="Opaque" x="401" y="777" width="84" height="25" uuid="05cc9135-6788-4773-9f42-afe7adeae1fd"/>
+				<imageExpression><![CDATA["C:\\Users\\TI\\Documents\\NetBeansProjects\\Folderas\\src\\java\\com\\datos\\imagen\\labelen-color.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="24" y="254" width="541" height="43" forecolor="#FFFFFF" uuid="19da41d6-0641-4659-a117-a0040b37c84c"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[Nombre del cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="442" y="49" width="0" height="0" uuid="a7777123-a918-4a90-98ea-5ae2258b0185"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[TIPO DE ORDEN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="661" y="25" width="27" height="0" uuid="4370bf1f-b1fa-4bcd-ad5a-9c9d3d7934c3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="661" y="5" width="0" height="0" uuid="e17a36eb-2c3d-41cb-868c-2e9b5f31bb15"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="661" y="59" width="27" height="0" uuid="7558bb59-f082-4f5a-8029-2057068ebfce"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="385" y="25" width="100" height="20" forecolor="#FFFFFF" uuid="01cfacfd-36e2-45f8-804f-8c3cd595a212"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans"/>
+				</textElement>
+				<text><![CDATA[TIPO DE ORDEN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="385" y="45" width="100" height="20" forecolor="#3997F9" backcolor="#FFFFFF" uuid="d10d0514-009b-4049-ad9f-55d3fd6c1994"/>
+			</rectangle>
+			<textField>
+				<reportElement x="385" y="45" width="100" height="20" uuid="462a78d4-5f20-444d-bb04-ec0b465e5880"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipo_op}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="24" y="155" width="270" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="bcdde6a6-9d37-49ba-8bdb-08567dcb8c3f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="155" width="270" height="20" forecolor="#FFFFFF" uuid="aed32453-310f-4cc0-aee0-07f972090d0e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans"/>
+				</textElement>
+				<text><![CDATA[FECHA DE REGISTRO DE ORDEN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="24" y="175" width="270" height="20" forecolor="#3997F9" backcolor="#FFFFFF" uuid="7b9283fa-d726-4814-bed4-8b8c4bd72be0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="155" width="270" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="42445d02-cc61-4762-b829-3ad0e1ec0966"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="175" width="270" height="20" forecolor="#3997F9" backcolor="#FFFFFF" uuid="b9b5d9de-41e0-44c8-90cd-ce2b49132faf"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="155" width="270" height="20" forecolor="#FFFFFF" uuid="38e6d563-92b2-4698-b3e8-ce999f42e7e7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans"/>
+				</textElement>
+				<text><![CDATA[FECHA DE AUTORIZACIÓN DE CLIENTE]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="24" y="175" width="270" height="20" uuid="8e669088-4f90-4885-a077-c44e86421c40"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{f_registro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="293" y="175" width="270" height="20" uuid="7024783c-68ad-4c46-9263-afc00078cb3d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{f_autorizacion}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="24" y="233" width="270" height="20" forecolor="#3997F9" backcolor="#FFFFFF" uuid="c5c43a6d-8d74-46af-b355-32bbb86ab327"/>
+			</rectangle>
+			<textField>
+				<reportElement x="24" y="233" width="270" height="20" uuid="babdb8eb-356e-4dec-8ae9-a2061b97aff6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{f_autorizacion}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="24" y="213" width="270" height="20" forecolor="#3997F9" backcolor="#3997F9" uuid="9485f1ff-a6b2-42aa-86fb-8da2c1d17932"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="23" y="213" width="270" height="20" forecolor="#FFFFFF" uuid="16084378-f73c-4c82-a623-fed89557e10c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans"/>
+				</textElement>
+				<text><![CDATA[FECHA DE INGRESO A PRODUCCIÓN]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="294" y="233" width="270" height="20" uuid="fdbd2af1-a4a8-4c03-b34a-57660d034ef6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{f_autorizacion}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="782">
+			<rectangle>
+				<reportElement x="30" y="120" width="540" height="30" forecolor="#3997F9" backcolor="#3997F9" uuid="928d533c-0da2-4469-b7bc-fe323ae46405"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="30" y="23" width="540" height="30" forecolor="#3997F9" backcolor="#3997F9" uuid="90e8d207-cb14-4255-9bb3-523967ac1482"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="30" y="53" width="540" height="46" forecolor="#3997F9" uuid="889c1427-598e-4092-a667-39159edc25c5"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="30" y="10" width="543" height="43" forecolor="#FFFFFF" uuid="3287c13e-664f-4332-ada5-e044f6f12a3b"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[Forma]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="30" y="53" width="119" height="46" forecolor="#3997F9" backcolor="#E4FDED" uuid="bc5d254c-b3cd-4446-92ce-a28b1b746463"/>
+			</rectangle>
+			<textField>
+				<reportElement x="30" y="72" width="119" height="27" uuid="8bd938a3-4416-492a-b278-5aa51b8beaa3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cantidad}+" "+$F{Unidad}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="51" width="119" height="20" uuid="ab8f7deb-44b2-4bee-a50a-6e070b81d2a0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cantidad]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="149" y="53" width="159" height="46" forecolor="#3997F9" backcolor="#E4FDED" uuid="8e41de98-14d2-4aac-8b35-6fff22a3e170"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="149" y="51" width="159" height="30" uuid="d5b7184c-04d0-4436-b5db-38a164656c83"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tamaño]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="149" y="73" width="159" height="27" uuid="7c6a27a3-5b6d-4c84-af8a-e453c7a13e94"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ancho}+" in    x    "+$F{largo}+" in"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="308" y="53" width="159" height="46" forecolor="#3997F9" backcolor="#E4FDED" uuid="a5a4051d-2c29-4754-91ee-0f184ea6e68e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="308" y="51" width="159" height="30" uuid="5714829a-b8b9-4cdb-889f-3937c8cad010"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Número de cotización]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="308" y="72" width="159" height="27" uuid="2cdc6fcf-2f58-4054-866f-5b052f7b7d1d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Soberana Sans" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numcotizacion}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement key="table 9" style="table 9" x="30" y="150" width="540" height="140" uuid="45ec34de-05a8-4086-a6f8-36d200ce8264"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="APLIES" uuid="36bb11c0-1d52-4521-a683-71fb846d9821">
+						<datasetParameter name="fa">
+							<datasetParameterExpression><![CDATA[$P{formaN}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="183" uuid="3f54b416-629e-4ee8-a584-dfec71245628">
+						<jr:columnHeader style="table 9_CH" height="31" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="183" height="30" uuid="26f0c56c-cf75-45ea-8cd5-0fc731bd48fa"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Descripción]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 9_TD" height="47" rowSpan="1">
+							<textField>
+								<reportElement x="2" y="0" width="181" height="43" uuid="37783f48-b0be-42ae-a646-8228d4030157"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="59" uuid="df688fa0-65c4-4cb3-9e8f-f135324c3f6d">
+						<jr:columnHeader style="table 9_CH" height="31" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="54" height="30" uuid="540bdd41-e7c5-4575-bca8-12ee0b2e18e0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Ancho]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 9_TD" height="47" rowSpan="1">
+							<textField>
+								<reportElement x="2" y="0" width="54" height="43" uuid="19106b61-c060-43d7-a9a1-8cfc5d77a540"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ancho}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="45" uuid="6f0de8a1-e7ef-4f40-8f9b-ed114a9ae136">
+						<jr:columnHeader style="table 9_CH" height="31" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="44" height="30" uuid="0e7d1c2f-4a9a-4460-a9f4-0943e8912790"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Largo]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 9_TD" height="47" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="45" height="43" uuid="74fc1cae-1557-444a-9f34-08899b8eed76"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{largo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="93" uuid="38a5c08b-c03d-48be-a6f7-5a7cb79e9648">
+						<jr:columnHeader style="table 9_CH" height="31" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="b608bb90-c585-4e5c-b501-22234f252b56"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Cantidad]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 9_TD" height="47" rowSpan="1">
+							<textField>
+								<reportElement x="1" y="0" width="90" height="43" uuid="465bebeb-d670-42bf-b05a-1cc960c2573f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="159" uuid="ca28c499-ed5b-4f0f-bf66-083df7ce3c63">
+						<jr:columnHeader style="table 9_CH" height="31" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="157" height="30" uuid="518af50d-2dff-4e86-963f-2677f6b35c13"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Observaciones]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 9_TD" height="47" rowSpan="1">
+							<textField>
+								<reportElement x="1" y="0" width="156" height="43" uuid="ef1eb5a2-af49-4bc5-8b3e-31abaa5c9d57"/>
+								<textElement textAlignment="Justified" verticalAlignment="Top">
+									<font fontName="Soberana Sans" size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{obserbaciones}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="29" y="107" width="540" height="43" forecolor="#FFFFFF" uuid="bd2a5849-0eea-4834-8281-5a0b68bb58da"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[Aplicaciones Especiales]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="30" y="302" width="540" height="30" forecolor="#3997F9" backcolor="#3997F9" uuid="e4a3ebb4-19c0-45b6-b996-c3b27470f3fb"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="30" y="290" width="540" height="43" forecolor="#FFFFFF" uuid="f2b205bf-ba92-4b2e-9134-0550a9f20254"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Soberana Sans" size="20"/>
+				</textElement>
+				<text><![CDATA[IMPRESION]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 14" style="table 14" x="30" y="334" width="540" height="140" uuid="ee5a93a1-2807-4f75-b956-3e0dc3cbe176"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Tantos" uuid="3d90b7f3-bb7d-4c96-8dd8-9551698a11ce">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="54" uuid="34ed1633-8d4c-4062-8853-22e03fc2cc20">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="54" height="30" uuid="5fb1b4dd-a337-40fa-8205-ffa3ec3662e9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Tiros]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="54" height="46" uuid="98ad0772-55fb-4bfb-9e05-f485482ad6a1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{tiros}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="55" uuid="2bc4e7f8-fb2f-42eb-945d-5a432238cb5c">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="55" height="30" uuid="7c51f911-4acc-4c56-853d-060b2bd07aee"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Color]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="55" height="46" uuid="9a5a8d95-cae3-4c94-9030-ac2570017b71"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{color}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="52" uuid="c1c50a44-682e-4cac-b20d-78a366abf292">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="52" height="30" uuid="4d817628-7bc8-40fe-83de-dec35f501f80"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Calidad]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="52" height="46" uuid="b6ae483c-71bc-4fc2-a417-6fc8bd549b17"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calidad}+" "+$F{peso}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="dfd955e5-75b1-418e-8a15-8fdb6bccd0f8">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="5f82fbb8-56a3-4be1-a051-b280209b47bd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Carbón]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="46" uuid="9f3e6b4e-4d59-4ce0-86c7-86ec9ea0e686"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{carbon}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4456da44-9a15-489f-994d-ee865f34cbff">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="6c1a9e85-2efd-4f21-a04c-0cf2e013cc83"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Tamaño]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="46" uuid="c9c6cae2-3e6b-4559-9fc3-f8aa93cba9b0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ancho}+" x "+$F{largo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="a56ba6fb-719b-4fbe-b0c3-92c160b4318b">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="5826a16b-1221-44c5-ab56-246e121b0482"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Perforación]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="47624e81-0ab8-41a5-8b1e-7ecffed6af4e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA["H: "+$F{perfh}]]></textFieldExpression>
+							</textField>
+							<textField>
+								<reportElement x="0" y="26" width="90" height="20" uuid="a0e1aa62-24eb-4ddb-ac6f-c14e16151489"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA["V: "+$F{perfv}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="58" uuid="1e130a07-522f-4d07-b65e-77eccce360b7">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="58" height="30" uuid="228e17ed-e5d4-4953-934f-0c6b170e29d1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<text><![CDATA[Cambios]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="58" height="46" uuid="32fa7ddd-7c44-4f8b-a575-a97a23701784"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{cambios}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="91" uuid="d0add3d9-cbf9-4027-b42a-37c771cae4f5">
+						<jr:columnHeader style="table 14_CH" height="32" rowSpan="1">
+							<staticText>
+								<reportElement x="1" y="0" width="90" height="30" uuid="fc622867-bfb0-4c97-a0cd-738e9180f8d3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Soberana Sans"/>
+								</textElement>
+								<text><![CDATA[Tiras Marginales]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 14_TD" height="46" rowSpan="1">
+							<textField>
+								<reportElement x="1" y="0" width="90" height="46" uuid="3798ed99-a754-4a13-adf5-de6ce58abc6d"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Soberana Sans" size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{tirasM}.equalsIgnoreCase("no")?$F{tirasM}:$F{tirasM}+"\nNombre: "+$F{nombre}+"\nUbicación:"+$F{ubicacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/01/2018, 11:31:24 AM
+    Author     : TI
+*/
+
+body{
+    background-image: url('https://wallpapertag.com/wallpaper/full/1/e/b/115323-most-popular-background-white-2400x1800.jpg');
+}
+.centrar {
+
+overflow: hidden;
+position: absolute;
+height: 150px;
+width: 500px;
+left: 50%;
+top: 50%;
+margin-top: -75px;
+margin-left: -250px;
+
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .cont1 {
+  padding: 60px 15px 0;
+}
+
+.footer > .cont1 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+
