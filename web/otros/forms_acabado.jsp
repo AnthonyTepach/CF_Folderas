@@ -133,6 +133,7 @@
             <li><input type="radio" name="engrapadorapido" id="engrapadorapido1" value="Abajo" /><label for="engrapadorapido1">&nbsp;Abajo</label></li>
             <li><input type="radio" name="engrapadorapido" id="engrapadorapido2" value="Izquierda" /><label for="engrapadorapido2">&nbsp;Izquierda</label></li>
             <li><input type="radio" name="engrapadorapido" id="engrapadorapido3" value="Derecha" /><label for="engrapadorapido3">&nbsp;Derecha</label></li>
+            <li><input type="radio" name="engrapadorapido" id="engrapadorapido4" value="No"  checked=""/><label for="engrapadorapido4">&nbsp;No</label></li>
         </ol>
         <button class="btn btn-outline-dark" onclick="guardaRapido()">Guardar</button>
     </div>
@@ -142,8 +143,9 @@
             <li><input type="radio" name="taparapida" id="taparapida" value="Tapa" /><label for="taparapida">&nbsp;Tapa</label></li>
             <li><input type="radio" name="taparapida" id="taparapida1" value="Contratapa" /><label for="taparapida1">&nbsp;Contratapa</label></li>
             <li><input type="radio" name="taparapida" id="taparapida2" value="Tapa y Contratapa" /><label for="taparapida2">&nbsp;Tapa y Contratapa</label></li>
-            <li><label for="txtmat">&nbsp;Material&nbsp;</label><input type="text" class="form-control" name="marrapido" id="txtmat"  /></li>
-            <li><label for="txtmed">&nbsp;Medida&nbsp;</label><input type="text" class="form-control" name="medrapido" id="txtmed"  /></li>
+            <li><input type="radio" name="taparapida" id="taparapida3" value="No" checked="true" /><label for="taparapida3">&nbsp;No</label></li>
+            <li><label for="txtmat">&nbsp;Material&nbsp;</label><input type="text" class="form-control" name="marrapido" id="matrapi"  /></li>
+            <li><label for="txtmed">&nbsp;Medida&nbsp;</label><input type="text" class="form-control" name="medrapido" id="medrapi"  /></li>
         </ol> 
     </div>
 </div>

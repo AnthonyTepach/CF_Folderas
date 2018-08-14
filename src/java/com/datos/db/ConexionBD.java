@@ -1,6 +1,7 @@
 package com.datos.db;
 
 import java.sql.*;
+import static java.util.UUID.randomUUID;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -26,7 +27,9 @@ public class ConexionBD {
         con = null;
 
     }
-
+    public String crearUUID() {
+        return randomUUID().toString().toUpperCase();
+    }
     public Connection OpenDB() {
         try {
             Class.forName(DriverMySQL);
